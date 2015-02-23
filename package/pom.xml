@@ -2,18 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.openmrs.distro</groupId>
-	<artifactId>referenceapplication-package</artifactId>
-	<version>2.2-SNAPSHOT</version>
+	<artifactId>ebola-kerrytown-package</artifactId>
+	<version>1.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Reference Application Distribution Package</name>
-	<description>Scripts for building the Reference Application distribution package</description>
-	<url>https://wiki.openmrs.org/x/yQRDAg</url>
+	<name>OpenMRS Ebola Kerry Town Distribution Package</name>
+	<description>Scripts for building the OpenMRS Ebola Kerry Town distribution package</description>
 
 	<parent>
 		<groupId>org.openmrs.distro</groupId>
-		<artifactId>referenceapplication</artifactId>
-		<version>2.2-SNAPSHOT</version>
+		<artifactId>ebola-kerrytown</artifactId>
+		<version>1.1-SNAPSHOT</version>
 	</parent>
 	
 	<organization>
@@ -22,9 +20,9 @@
 	</organization>
 
 	<scm>
-		<connection>scm:git:https://github.com/openmrs/openmrs-distro-referenceapplication</connection>
-		<developerConnection>scm:git:https://github.com/openmrs/openmrs-distro-referenceapplication</developerConnection>
-		<url>scm:git:https://github.com/openmrs/openmrs-distro-referenceapplication</url>
+		<connection>scm:git:https://github.com/openmrs/openmrs-distro-ebola-kerrytown</connection>
+		<developerConnection>scm:git:https://github.com/openmrs/openmrs-distro-ebola-kerrytown</developerConnection>
+		<url>scm:git:https://github.com/openmrs/openmrs-distro-ebola-kerrytown</url>
 	  <tag>HEAD</tag>
   </scm>
 
@@ -228,6 +226,11 @@
 									<type>omod</type>
 									<destFileName>atlas-${atlasVersion}.omod</destFileName>
 								</artifactItem>
+                                <artifactItem>
+                                    <groupId>org.openmrs.module</groupId>
+                                    <artifactId>ebolaexample-omod</artifactId>
+                                    <destFileName>ebolaexample-${ebolaexampleVersion}.omod</destFileName>
+                                </artifactItem>
 							</artifactItems>
 							<outputDirectory>${project.build.directory}/distro</outputDirectory>
 						</configuration>
