@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>ebola-kerrytown-package</artifactId>
-	<version>3.0</version>
+	<version>3.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>OpenMRS Ebola Kerry Town Distribution Package</name>
 	<description>Scripts for building the OpenMRS Ebola Kerry Town distribution package</description>
@@ -11,7 +11,7 @@
 	<parent>
 		<groupId>org.openmrs.distro</groupId>
 		<artifactId>ebola-kerrytown</artifactId>
-		<version>3.0</version>
+		<version>3.1-SNAPSHOT</version>
 	</parent>
 	
 	<organization>

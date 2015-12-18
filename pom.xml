@@ -4,7 +4,7 @@
 
 	<groupId>org.openmrs.distro</groupId>
 	<artifactId>ebola-kerrytown</artifactId>
-	<version>3.0</version>
+	<version>3.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>OpenMRS Ebola Kerry Town Distribution</name>
 	<description>OpenMRS Ebola Kerry Town Distribution</description>
