@@ -4,7 +4,7 @@
 
 	<groupId>org.openmrs.distro</groupId>
 	<artifactId>ebola-kerrytown</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>3.0</version>
 	<packaging>pom</packaging>
 	<name>OpenMRS Ebola Kerry Town Distribution</name>
 	<description>OpenMRS Ebola Kerry Town Distribution</description>
@@ -63,7 +63,7 @@
 		<allergyuiVersion>1.1</allergyuiVersion>
 		<formentryappVersion>1.1</formentryappVersion>
 		<atlasVersion>2.1</atlasVersion>
-        <ebolaexampleVersion>1.0-SNAPSHOT</ebolaexampleVersion>
+        <ebolaexampleVersion>1.0.2</ebolaexampleVersion>
 	</properties>
 
 	<dependencyManagement>
